@@ -10,6 +10,12 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            string s = Console.ReadLine();
+            double x = double.Parse(s);
+            double F = Math.Sin(x) - 2 * Math.Cos(x);//формула
+            Console.WriteLine(x + " " + F);//вывод ответа
+            Console.ReadKey();
+            return;
         }
     }
 }
